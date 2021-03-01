@@ -13,6 +13,6 @@ describe('Test Fib',()=>{
         }
         const r1= fibresult.reduce((a,b)=>  a +b  );
         const r2= fibArray.reduce((a,b)=>  a +b  );
-        expect(r1).toBe(r2);
+        expect(r1).toBe(r2); 
     })
 })
