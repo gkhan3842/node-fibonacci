@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 3000;
 const server = express();
 server.use(express.json())
 server.use(cors());
-server.use("/api/fib",route);
+server.use("/api",route);
+// server.use("/api/fibbyquery",route);
 
 server.use((err,req,res,next)=>{
     console.log(err)

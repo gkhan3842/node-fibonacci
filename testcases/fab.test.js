@@ -1,7 +1,7 @@
 const clsFib = require('../logiclayer/clsfibonacci');
 
 describe('Test Fib',()=>{
-    it("Test Fib Function",()=>{
+    it("Test Fib Function by Param",()=>{
         let fibLenght=5;
         const objfib = new clsFib(fibLenght);
         const fibresult = objfib.fibCalculate();
